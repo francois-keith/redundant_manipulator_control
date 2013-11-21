@@ -4,3 +4,9 @@
 [submodule "dynamic_graph_actionlib"]
 	path = dynamic_graph_actionlib
 	url = git://github.com/stack-of-tasks/dynamic_graph_actionlib.git
+[submodule "jrl_dynamics_urdf"]
+	path = jrl_dynamics_urdf
+	url = https://github.com/bcoudrin/jrl_dynamics_urdf.git
+[submodule "sot_pr2"]
+	path = sot_pr2
+	url = https://github.com/bcoudrin/sot_pr2
