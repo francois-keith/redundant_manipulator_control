@@ -11,3 +11,6 @@
 [submodule "dynamic_graph_bridge"]
 	path = dynamic_graph_bridge
 	url = https://github.com/francois-keith/dynamic_graph_bridge
+[submodule "dynamic_graph_bridge_msgs"]
+	path = dynamic_graph_bridge_msgs
+	url = https://github.com/stack-of-tasks/dynamic_graph_bridge_msgs
