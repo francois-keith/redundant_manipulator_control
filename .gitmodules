@@ -3,10 +3,7 @@
 	url = git://github.com/francois-keith/dynamic_graph_bridge.git
 [submodule "sot_pr2"]
 	path = sot_pr2
-	url = git://github.com/stack-of-tasks/sot_pr2.git
-[submodule "jrl_dynamics_urdf"]
-	path = jrl_dynamics_urdf
-	url = git://github.com/laas/jrl_dynamics_urdf.git
+	url = git://github.com/francois-keith/sot_pr2.git
 [submodule "dynamic_graph_actionlib"]
 	path = dynamic_graph_actionlib
 	url = git://github.com/francois-keith/dynamic_graph_actionlib.git
