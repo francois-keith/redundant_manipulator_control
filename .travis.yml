@@ -1,12 +1,9 @@
-after_success:
-- git config --global user.name "Travis CI"
-- git config --global user.email "thomas.moulard+travis@gmail.com"
-- git remote set-url origin https://thomas-moulard:${GH_TOKEN}@github.com/stack-of-tasks/redundant_manipulator_control.git
-- git fetch origin gh-pages:gh-pages
-matrix:
-  allow_failures:
-  - compiler: clang
 language: cpp
+compiler: gcc
+env:
+  global:
+  - secure: "VwaW/I3Sp1lxYf5s1cdqSo11jFa6BBuanjqbkfSLLAiZoSvXiXIb0bGAjWcOw5KYm2sxJfZCdsBsvI0z2P7yBE1NYP8hFHgKiglhi2grfRdhyBZAThbBKZZ41CU1xXoDeH0ZRC9eZHmVTwOZLe8RoBhE7v3gctu4wbmEh/4Miqk="
+  - ROS_DISTRO=hydro
 notifications:
   email:
   - hpp-source@laas.fr
@@ -16,12 +13,8 @@ branches:
   - hydro
   - groovy
   - fuerte
-before_install: ./.travis/before_install
-script: ./.travis/build
-after_success: ./.travis/after_success
-env:
-  global:
-    secure: VwaW/I3Sp1lxYf5s1cdqSo11jFa6BBuanjqbkfSLLAiZoSvXiXIb0bGAjWcOw5KYm2sxJfZCdsBsvI0z2P7yBE1NYP8hFHgKiglhi2grfRdhyBZAThbBKZZ41CU1xXoDeH0ZRC9eZHmVTwOZLe8RoBhE7v3gctu4wbmEh/4Miqk=
-compiler:
-- clang
-- gcc
+  - catkin
+before_install: ./.travis/run dependencies/catkin; ./.travis/run before_install
+script: ./.travis/run build
+after_success: ./.travis/run after_success
+after_failure: ./.travis/run after_failure
