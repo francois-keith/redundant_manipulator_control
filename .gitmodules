@@ -1,6 +1,6 @@
 [submodule "dynamic_graph_bridge"]
 	path = dynamic_graph_bridge
-	url = git://github.com/stack-of-tasks/dynamic_graph_bridge.git
+	url = git://github.com/francois-keith/dynamic_graph_bridge.git
 [submodule "sot_pr2"]
 	path = sot_pr2
 	url = git://github.com/stack-of-tasks/sot_pr2.git
@@ -9,7 +9,7 @@
 	url = git://github.com/laas/jrl_dynamics_urdf.git
 [submodule "dynamic_graph_actionlib"]
 	path = dynamic_graph_actionlib
-	url = git://github.com/stack-of-tasks/dynamic_graph_actionlib.git
+	url = git://github.com/francois-keith/dynamic_graph_actionlib.git
 [submodule "dynamic_graph_bridge_msgs"]
 	path = dynamic_graph_bridge_msgs
-	url = https://github.com/stack-of-tasks/dynamic_graph_bridge_msgs.git
+	url = https://github.com/francois-keith/dynamic_graph_bridge_msgs.git

@@ -1,0 +1,19 @@
+<package>
+  <name>redundant_manipulator_control</name>
+  <version>0.1.0</version>
+
+  <description>
+
+    Real-time control framework for redundant manipulators.
+
+  </description>
+  <maintainer email="hpp@laas.fr">HPP</maintainer>
+  <license>BSD,LGPL</license>
+  <url>http://ros.org/wiki/redundant_manipulator_control</url>
+  <export>
+    <metapackage />
+  </export>
+  <buildtool_depend>catkin</buildtool_depend> 
+</package>
+
+
