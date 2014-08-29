@@ -12,4 +12,4 @@
 	url = https://github.com/francois-keith/dynamic_graph_bridge_msgs.git
 [submodule ".travis"]
 	path = .travis
-	url = git://github.com/jrl-umi3218/jrl-travis
+	url = git://github.com/francois-keith/jrl-travis

@@ -14,6 +14,7 @@ branches:
   - groovy
   - fuerte
   - catkin
+  - travis
 before_install: ./.travis/run dependencies/catkin; ./.travis/run before_install
 script: ./.travis/run build
 after_success: ./.travis/run after_success
