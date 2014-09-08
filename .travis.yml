@@ -27,8 +27,6 @@ env:
     stack-of-tasks/sot-dynamic    stack-of-tasks/sot-application
     francois-keith/jrl_dynamics_urdf:topic/fixed_joints"
   - ROS_DISTRO=hydro
-  - ROS_GIT_DEPENDENCIES="francois-keith/dynamic_graph_bridge_msgs:catkin
-    francois-keith/dynamic_graph_bridge:catkin"
   - ALLOW_CATKINLINT_FAILURE=true
 notifications:
   email:
